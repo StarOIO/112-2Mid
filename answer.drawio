@@ -1,17 +1,117 @@
 <mxfile host="65bd71144e">
     <diagram id="ASTWp4ZXTidoFe2xOwB_" name="1b">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="460" dy="1124" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="60" width="250" height="660" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;雙方約好時間一起參觀&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;gradientColor=none;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="130" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;立即在現場觀看&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="250" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;設計一套軟體&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="200" y="380" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;聯絡代銷人&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="280" y="490" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" style="edgeStyle=none;html=1;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="8" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="8" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;預約型買家&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="390" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" style="edgeStyle=none;html=1;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="9" target="5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;現場即時參觀買家&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="190" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" style="edgeStyle=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="10" target="6">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;綻幣&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="490" y="220" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" style="edgeStyle=none;html=1;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="11" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;fontColor=#000000;labelBackgroundColor=none;" edge="1" parent="1" source="11" target="4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;代銷聯絡人員&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;labelBackgroundColor=none;gradientColor=none;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="320" width="80" height="80" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="YNBZmlXG5lnyesX3e9GX" name="1d">
-        <mxGraphModel dx="1102" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="322" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-1" value="工作人員" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;strokeColor=#fb0404;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="160" width="140" height="80" as="geometry">
+                        <mxRectangle x="140" y="160" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-5" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;綻幣&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;代銷聯絡人員&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#fb0404;fillColor=none;fontColor=#000000;" vertex="1" parent="TzQ5M-MfRrs81rxDSR7R-1">
+                    <mxGeometry y="30" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-6" value="系統" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;strokeColor=#fb0404;" vertex="1" parent="1">
+                    <mxGeometry x="310" y="140" width="140" height="120" as="geometry">
+                        <mxRectangle x="140" y="160" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-7" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;填寫資料&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;申請&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;推送訊息&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#fb0404;fillColor=none;fontColor=#000000;" vertex="1" parent="TzQ5M-MfRrs81rxDSR7R-6">
+                    <mxGeometry y="30" width="140" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-10" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=#f8f7f7;fontColor=#000000;gradientColor=none;strokeColor=#0845fd;" vertex="1" parent="1">
+                    <mxGeometry x="220" y="210" width="90" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-15" value="客戶" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;strokeColor=#fb0404;" vertex="1" parent="1">
+                    <mxGeometry x="120" y="360" width="140" height="100" as="geometry">
+                        <mxRectangle x="140" y="160" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-16" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;預約型買家&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;現場即時參觀買家&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#fb0404;fillColor=none;fontColor=#000000;" vertex="1" parent="TzQ5M-MfRrs81rxDSR7R-15">
+                    <mxGeometry y="30" width="140" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-17" value="" style="line;strokeWidth=2;html=1;labelBackgroundColor=#f8f7f7;fontColor=#000000;gradientColor=none;rotation=-215;shadow=0;strokeColor=#0845fd;" vertex="1" parent="1">
+                    <mxGeometry x="181.37" y="306.96" width="174.52" height="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-20" value="預約" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;strokeColor=#fb0404;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="370" width="140" height="80" as="geometry">
+                        <mxRectangle x="140" y="160" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-21" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;時間&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;日期&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#fb0404;fillColor=none;fontColor=#000000;" vertex="1" parent="TzQ5M-MfRrs81rxDSR7R-20">
+                    <mxGeometry y="30" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-22" value="" style="line;strokeWidth=2;direction=south;html=1;shadow=0;labelBackgroundColor=#FFFFFF;sketch=0;fontColor=#000000;gradientColor=none;strokeColor=#0845fd;" vertex="1" parent="1">
+                    <mxGeometry x="375" y="260" width="10" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-25" value="" style="line;strokeWidth=2;html=1;shadow=0;labelBackgroundColor=#FFFFFF;sketch=0;fontColor=#000000;gradientColor=none;strokeColor=#0845fd;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="400" width="60" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-26" value="申請" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontColor=#000000;gradientColor=none;strokeColor=#fb0404;" vertex="1" parent="1">
+                    <mxGeometry x="550" y="180" width="140" height="80" as="geometry">
+                        <mxRectangle x="140" y="160" width="60" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-27" value="&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;span style=&quot;background-color: rgb(248, 247, 247);&quot;&gt;審核&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 14px; line-height: 19px;&quot;&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#fb0404;fillColor=none;fontColor=#000000;" vertex="1" parent="TzQ5M-MfRrs81rxDSR7R-26">
+                    <mxGeometry y="30" width="140" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="TzQ5M-MfRrs81rxDSR7R-28" value="" style="line;strokeWidth=2;html=1;shadow=0;labelBackgroundColor=#FFFFFF;sketch=0;fontColor=#000000;gradientColor=none;strokeColor=#0845fd;" vertex="1" parent="1">
+                    <mxGeometry x="450" y="230" width="100" height="10" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
